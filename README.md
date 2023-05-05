@@ -21,4 +21,4 @@ Challenge 3: Create a function to check if there is enough stock of the products
 3. If there is enough stock of all the products in the cart, update the available stock quantity of each product by subtracting the purchased quantity and return a message indicating that the purchase was successful.
 4. Make sure the applyDiscounts function and CartSummary continue to work correctly after checking and updating the stock.
 
-*/Initial commit
+*/
