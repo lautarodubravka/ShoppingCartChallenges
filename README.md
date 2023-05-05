@@ -14,7 +14,9 @@ Create a function to apply discounts to products in the shopping cart.
 2. Create a function called applyDiscounts that takes a shopping cart as a parameter. The function should apply the discount to each product in the cart by multiplying the product's price by 1 - discount. Don't forget to also update the totalPrice property in the shopping cart summary.
 3. Ensure that the CartSummary function still works correctly after applying the discounts.
 
-Challenge 3: Create a function to check if there is enough stock of the products in the shopping cart and update the stock quantity after the purchase is made.
+Challenge 3: 
+
+Create a function to check if there is enough stock of the products in the shopping cart and update the stock quantity after the purchase is made.
 
 1. Create a function called checkStockAndUpdate that takes the shopping cart as a parameter. The function should check if there is enough stock of each product in the cart before making the purchase.
 2. If there is not enough stock of any product in the cart, the function should return a message indicating which product doesn't have enough stock and how many are missing to complete the requested quantity.
