@@ -14,13 +14,16 @@ Create a function to apply discounts to products in the shopping cart.
 2. Create a function called applyDiscounts that takes a shopping cart as a parameter. The function should apply the discount to each product in the cart by multiplying the product's price by 1 - discount. Don't forget to also update the totalPrice property in the shopping cart summary.
 3. Ensure that the CartSummary function still works correctly after applying the discounts.
 
-Challenge 3: Create a function to check if there is enough stock of the products in the shopping cart and update the stock quantity after the purchase is made.
+Challenge 3: 
+
+Create a function to check if there is enough stock of the products in the shopping cart and update the stock quantity after the purchase is made.
 
 1. Create a function called checkStockAndUpdate that takes the shopping cart as a parameter. The function should check if there is enough stock of each product in the cart before making the purchase.
 2. If there is not enough stock of any product in the cart, the function should return a message indicating which product doesn't have enough stock and how many are missing to complete the requested quantity.
 3. If there is enough stock of all the products in the cart, update the available stock quantity of each product by subtracting the purchased quantity and return a message indicating that the purchase was successful.
 4. Make sure the applyDiscounts function and CartSummary continue to work correctly after checking and updating the stock.
 
+<<<<<<< HEAD
 Challenge 4: Calculate the tax and final price of the shopping cart.
 
 1. Create a function called calculateTax that takes a shopping cart and a tax percentage as parameters. This function should calculate the tax to be paid for the shopping cart and return the tax value.
@@ -37,4 +40,6 @@ In this challenge, you will simulate fetching product data from a MongoDB databa
 3. The function should iterate through the product IDs, find the matching products in the inventory, and return an array of the found products.
 4. For testing purposes, call the function with a sample list of product IDs and log the returned product information to the console.
 
+=======
+>>>>>>> edfd7fcd0def7d623146c17aab50d5978b5fd712
 */
