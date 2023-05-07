@@ -21,4 +21,20 @@ Challenge 3: Create a function to check if there is enough stock of the products
 3. If there is enough stock of all the products in the cart, update the available stock quantity of each product by subtracting the purchased quantity and return a message indicating that the purchase was successful.
 4. Make sure the applyDiscounts function and CartSummary continue to work correctly after checking and updating the stock.
 
-*/Initial commit
+Challenge 4: Calculate the tax and final price of the shopping cart.
+
+1. Create a function called calculateTax that takes a shopping cart and a tax percentage as parameters. This function should calculate the tax to be paid for the shopping cart and return the tax value.
+2. Modify the CartSummary function to also return the tax and final price of the shopping cart, which is the total price of the cart plus the tax. Make sure to call the calculateTax function inside CartSummary.
+3. Verify that the CartSummary function continues to work correctly after applying the discounts and calculating the tax and final price.
+Print the shopping cart summary in the console, showing the total price, tax, and final price.
+
+Challenge 5: Simulate a Database Query.
+
+In this challenge, you will simulate fetching product data from a MongoDB database. You will use the provided inventory of 50 products to mimic a database query. Your task is to create a function that receives a list of product IDs and returns the corresponding product information from the simulated database.
+
+1. Use the provided inventory of 50 products as your "database."
+2. Create a function called fetchProductsFromDB that takes an array of product IDs as an argument.
+3. The function should iterate through the product IDs, find the matching products in the inventory, and return an array of the found products.
+4. For testing purposes, call the function with a sample list of product IDs and log the returned product information to the console.
+
+*/

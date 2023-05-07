@@ -30,4 +30,15 @@ const cart = [
       const updatedSummary = CartSummary(cart)
       return updatedSummary
   }
-  console.log(CartSummary(cart));
+  const checkStockAndUpdate = (cart) => {
+    for (const product of cart) {
+        if (product.quantity > product.stock) {
+          return `Not enough stock of ${product.name}. ${product.quantity - product.stock} units are missing`
+        } else {
+          product.stock -= product.quantity
+        }
+    }
+    return 'The purchase was successful.'
+  }
+  console.log(CartSummary(cart))
+  console.log(checkStockAndUpdate(cart))
