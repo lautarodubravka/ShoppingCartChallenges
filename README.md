@@ -39,7 +39,4 @@ In this challenge, you will simulate fetching product data from a MongoDB databa
 2. Create a function called fetchProductsFromDB that takes an array of product IDs as an argument.
 3. The function should iterate through the product IDs, find the matching products in the inventory, and return an array of the found products.
 4. For testing purposes, call the function with a sample list of product IDs and log the returned product information to the console.
-
-=======
->>>>>>> edfd7fcd0def7d623146c17aab50d5978b5fd712
 */
