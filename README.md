@@ -57,4 +57,7 @@ Requirements:
 4. If the product is not found in the cart, the function should display a message indicating that the product is not in the cart.
 5. After removing a product from the cart, display the updated cart summary using the CartSummary function.
 Upon completing this challenge, you should be able to add and remove products from the cart and view the updated cart summary.
+6. Modify the main function to also include removing a product from the cart and displaying the cart summary after the removal. You can choose any product that is already in the cart to remove it.
+
+So, now you should modify the main function to include the removeFromCart function we previously created and display the cart summary after removing a product.
 */

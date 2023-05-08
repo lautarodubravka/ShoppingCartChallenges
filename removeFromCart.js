@@ -126,6 +126,10 @@ const main = async () => {
     addToCart(6, 4, cart)
     addToCart(27, 3, cart)
 
+    console.log('Final cart Cart summary before removing a product:', CartSummary(cart))
+    removeFromCart(6, cart)
+    console.log('Cart summary after removing a product:', CartSummary(cart))
+
     applyDiscounts(cart)
     const purchaseResult = checkStockAndUpdate(cart)
     console.log(purchaseResult)
