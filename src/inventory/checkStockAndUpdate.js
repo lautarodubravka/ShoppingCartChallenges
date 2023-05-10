@@ -1,3 +1,5 @@
+import { Inventory } from './Inventory.js'
+
 const checkStockAndUpdate = (cart) => {
     for (const product of cart) {
         const inventoryItem = Inventory.find((item) => item.id === product.id)

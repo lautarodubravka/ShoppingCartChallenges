@@ -6,11 +6,7 @@ import { applyDiscounts } from './cart/applyDiscounts.js'
 import { CartSummary } from './cart/CartSummary.js'
 
 import { fetchInventory} from './inventory/fetchInventory.js'
-import { Inventory } from './inventory/Inventory.js'
-import { searchProducts } from "./inventory/searchProducts.js"
 import { checkStockAndUpdate } from "./inventory/checkStockAndUpdate.js"
-
-import { calculateTax } from "./tax/calculateTax.js"
 
 const main = async () => {
     const inventory = await fetchInventory()

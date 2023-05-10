@@ -1,4 +1,4 @@
-import { calculateTax } from '../tax/calculateTax'
+import { calculateTax } from '../tax/calculateTax.js'
 
 const CartSummary = (cart) => {
     let totalPrice = 0

@@ -1,3 +1,5 @@
+import { Inventory } from '../inventory/Inventory.js'
+
 const addToCart = (productId, quantity, cart) => {
     const product = Inventory.find((item) => item.id === productId)
     if (product) {
