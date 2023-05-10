@@ -13,7 +13,7 @@ Challenge 4: calculateTaxChallenge.js
 Challenge 5: simulatedDataBaseChallenge.js
 Challenge 6: removeFromCartChallenge.js
 Challenge 7: searchproductsChallenge.js
-Challenge 8: 
+Challenge 8: refactoring the code.
 Challenge 9:
 Challenge 10:
 
@@ -85,7 +85,7 @@ Challenge 7 (searchProductsChallenge.js):
 
 Implement a search function to find products in the inventory by name or category.
 
-Challenge 8 (RefactoredModularizedCode): 
+Challenge 8 (Refactoring): 
 
 Improve the code structure by splitting it into modules, using imports and exports instead of having everything in a single file.
 

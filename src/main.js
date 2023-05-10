@@ -8,6 +8,10 @@ import { CartSummary } from './cart/CartSummary.js'
 import { fetchInventory} from './inventory/fetchInventory.js'
 import { checkStockAndUpdate } from "./inventory/checkStockAndUpdate.js"
 
+import { registerUser } from './auth/registerUser.js'
+import { loginUser } from './auth/loginUser.js'
+import { logoutUser } from './auth/logoutUser.js'
+
 const main = async () => {
     const inventory = await fetchInventory()
     const cart = []
@@ -25,5 +29,12 @@ const main = async () => {
     const purchaseResult = checkStockAndUpdate(cart)
     console.log(purchaseResult)
     console.log('Final cart summary:', CartSummary(cart))
+
+    console.log(registerUser("user3", "password3")); // Should register the user and return "User registered successfully."
+    console.log(registerUser("user1", "password1")); // Should return "Error: Username already exists."
+    console.log(loginUser("user1", "password1")); // Should log in and return "Login successful."
+    console.log(loginUser("user1", "wrongpassword")); // Should return "Error: Incorrect username or password."
+    console.log(logoutUser("user1")); // Should log out and return "Logout successful."
+    console.log(logoutUser("nonexistentuser")); // Should return "Error: Username does not exist."    
 }
 main()
